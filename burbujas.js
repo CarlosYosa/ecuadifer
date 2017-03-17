@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"burbujas_atlas_", frames: [[61,122,58,54],[0,123,56,51],[0,61,59,60],[63,0,60,59],[61,61,59,59],[0,0,61,59]]}
+		{name:"burbujas_atlas_", frames: [[0,122,58,54],[60,123,56,51],[63,0,59,60],[0,61,60,59],[62,62,59,59],[0,0,61,59]]}
 ];
 
 
@@ -225,50 +225,74 @@ p.nominalBounds = new cjs.Rectangle(-28,-28,58,54);
 	// Actions
 	this.instance = new lib.burbujas_1();
 	this.instance.parent = this;
-	this.instance.setTransform(303.4,445.5,2.704,2.704,0,0,0,1.2,-0.8);
+	this.instance.setTransform(1312.2,559.5,2.526,2.526,0,0,0,1.1,-0.9);
 
 	this.instance_1 = new lib.burbujas_1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(690.2,553.7,1,1,0,0,0,1,-1);
+	this.instance_1.setTransform(1282.6,340.2,1,1,0,0,0,1,-1);
 
 	this.instance_2 = new lib.burbujas_1();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(99,119.1,1,1,0,0,0,1,-1);
+	this.instance_2.setTransform(1149.7,508.4,1,1,0,0,0,1,-1);
 
 	this.instance_3 = new lib.burbujas_1();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(909.5,262.1,1,1,0,0,0,1,-1);
+	this.instance_3.setTransform(1100.8,350.2,2.257,2.257,0,0,0,1,-0.9);
 
 	this.instance_4 = new lib.burbujas_1();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(762.5,424.9,2.448,2.448,0,0,0,1.1,-1);
+	this.instance_4.setTransform(1347.8,143.6,3.776,3.776,180,0,0,1.1,-1.1);
 
 	this.instance_5 = new lib.burbujas_1();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(663.1,208.1,1,1,0,0,0,1,-1);
+	this.instance_5.setTransform(1116.4,142.8,1,1,0,0,0,1,-1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-	// Capa 1
 	this.instance_6 = new lib.burbujas_1();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(477.6,636.2,1,1,0,0,0,1,-1);
+	this.instance_6.setTransform(354.2,418.6,2.704,2.704,0,0,0,1.2,-0.8);
 
 	this.instance_7 = new lib.burbujas_1();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(510,287.5,1,1,0,0,0,1,-1);
+	this.instance_7.setTransform(690.2,553.7,1,1,0,0,0,1,-1);
+
+	this.instance_8 = new lib.burbujas_1();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(99,119.1,1,1,0,0,0,1,-1);
+
+	this.instance_9 = new lib.burbujas_1();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(909.5,262.1,1,1,0,0,0,1,-1);
+
+	this.instance_10 = new lib.burbujas_1();
+	this.instance_10.parent = this;
+	this.instance_10.setTransform(762.5,424.9,2.448,2.448,0,0,0,1.1,-1);
+
+	this.instance_11 = new lib.burbujas_1();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(109.8,413.4,1,1,0,0,0,1,-1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	// Capa 1
+	this.instance_12 = new lib.burbujas_1();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(477.6,636.2,1,1,0,0,0,1,-1);
+
+	this.instance_13 = new lib.burbujas_1();
+	this.instance_13.parent = this;
+	this.instance_13.setTransform(419.6,208.1,1,1,0,0,0,1,-1);
 
 	this.burbuja1 = new lib.burbujas_1();
 	this.burbuja1.parent = this;
 	this.burbuja1.setTransform(569.2,80.9,2.085,2.085,0,0,0,-1.1,-1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.burbuja1},{t:this.instance_7},{t:this.instance_6}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.burbuja1},{t:this.instance_13},{t:this.instance_12}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(710,384.6,868.5,638.6);
+p.nominalBounds = new cjs.Rectangle(810,384.6,1387.7,638.6);
 // library properties:
 lib.properties = {
-	width: 1280,
+	width: 1480,
 	height: 720,
 	fps: 24,
 	color: "#66FFFF",
