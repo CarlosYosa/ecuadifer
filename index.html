@@ -14,14 +14,11 @@
 <title>index</title>
 <!-- write your code here -->
 <style>
-  body {
-	overflow:hidden;
-  }
   #animation_container, #_preload_div_ {
 	position:absolute;
 	margin:auto;
-	left:-100%;right:-100%;
-	top:-100%;bottom:-100%;
+	left:0;right:0;
+	top:0;bottom:0;
   }
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
@@ -92,7 +89,7 @@ function handleComplete(evt) {
 			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
 	}
-	makeResponsive(true,'both',true,2);	
+	makeResponsive(true,'both',true,1);	
 	fnStartAnimation();
 }
 </script>
